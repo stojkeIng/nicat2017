@@ -1,0 +1,5 @@
+CREATE TABLE Question (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  question VARCHAR(256) NOT NULL,
+  author VARCHAR(100)
+);
